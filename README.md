@@ -3,12 +3,12 @@ Get image
 docker image pull ubuntu:latest
 ```
 
-Liste images
+List images
 ```
 docker image ls
 ```
 
-Liste containers
+List containers
 ```
 docker ps -a
 ```
