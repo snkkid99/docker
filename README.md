@@ -63,6 +63,11 @@ Start docker compose in the background
 docker-compose up -d
 ````
 
+Start docker compose in the background and build
+````
+docker-compose up --build -d
+````
+
 List Docker compose status
 ````
 docker-compose ps
