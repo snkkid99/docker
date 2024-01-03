@@ -57,3 +57,23 @@ Build Dockerfile
 ````
 docker build .
 ````
+
+Start docker compose in the background
+````
+docker-compose up -d
+````
+
+List Docker compose status
+````
+docker-compose ps
+````
+
+Stop and remove Docker compose containers
+````
+docker-compose down
+````
+
+Stop and remove Docker compose containers and volumes
+````
+docker-compose down --volumes
+````
